@@ -53,7 +53,7 @@ function ternaryTeenager(age) {
     return "You are a teenager";
 }
 
-if (age<=12 && age=>20){
+if (age<13 || age>19){
   return "You are not a teenager"
 }
 
